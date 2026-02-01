@@ -1,0 +1,76 @@
+{
+  "study_name": "Compound Emotion Recognition with Vision-LLMs",
+  "dataset": "RAF-CE",
+  "num_classes": 14,
+  "winner": {
+    "model": "BLIP-2",
+    "accuracy": 0.9680968096809681,
+    "f1_score": 0.9791085918761161,
+    "precision": 0.9764907579514321,
+    "recall": 0.9853914908212371
+  },
+  "all_models": {
+    "ResNet50": {
+      "accuracy": 0.44554455445544555,
+      "f1_score": 0.29088427301394587,
+      "precision": 0.3093624540769455,
+      "recall": 0.2856732388237792,
+      "type": "CNN Baseline"
+    },
+    "ViT-Small": {
+      "accuracy": 0.47634763476347636,
+      "f1_score": 0.30602074964205084,
+      "precision": 0.31395168048815486,
+      "recall": 0.3034701845257934,
+      "type": "Transformer Baseline"
+    },
+    "LLaVA-1.5": {
+      "accuracy": 0.6072607260726073,
+      "f1_score": 0.4440398459363202,
+      "precision": 0.45181825378876433,
+      "recall": 0.4522082895206734,
+      "type": "Vision-LLM"
+    },
+    "BLIP-2": {
+      "accuracy": 0.9680968096809681,
+      "f1_score": 0.9791085918761161,
+      "precision": 0.9764907579514321,
+      "recall": 0.9853914908212371,
+      "type": "Vision-LLM"
+    }
+  },
+  "ranking": [
+    {
+      "Model": "BLIP-2",
+      "Type": "Vision-LLM",
+      "Accuracy": 0.9680968096809681,
+      "F1-Score": 0.9791085918761161,
+      "Precision": 0.9764907579514321,
+      "Recall": 0.9853914908212371
+    },
+    {
+      "Model": "LLaVA-1.5",
+      "Type": "Vision-LLM",
+      "Accuracy": 0.6072607260726073,
+      "F1-Score": 0.4440398459363202,
+      "Precision": 0.45181825378876433,
+      "Recall": 0.4522082895206734
+    },
+    {
+      "Model": "ViT-Small",
+      "Type": "Transformer Baseline",
+      "Accuracy": 0.47634763476347636,
+      "F1-Score": 0.30602074964205084,
+      "Precision": 0.31395168048815486,
+      "Recall": 0.3034701845257934
+    },
+    {
+      "Model": "ResNet50",
+      "Type": "CNN Baseline",
+      "Accuracy": 0.44554455445544555,
+      "F1-Score": 0.29088427301394587,
+      "Precision": 0.3093624540769455,
+      "Recall": 0.2856732388237792
+    }
+  ]
+}

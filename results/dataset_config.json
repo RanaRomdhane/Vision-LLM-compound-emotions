@@ -1,0 +1,53 @@
+{
+  "num_classes": 14,
+  "active_classes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "idx_to_label": {
+    "0": "happily surprised",
+    "1": "happily disgusted",
+    "2": "sadly fearful",
+    "3": "sadly angry",
+    "4": "sadly surprised",
+    "5": "sadly disgusted",
+    "6": "fearfully angry",
+    "7": "fearfully surprised",
+    "8": "fearfully disgusted",
+    "9": "angrily surprised",
+    "10": "angrily disgusted",
+    "11": "disgustedly surprised",
+    "12": "happily fearful",
+    "13": "happily sad"
+  },
+  "label_to_idx": {
+    "happily surprised": 0,
+    "happily disgusted": 1,
+    "sadly fearful": 2,
+    "sadly angry": 3,
+    "sadly surprised": 4,
+    "sadly disgusted": 5,
+    "fearfully angry": 6,
+    "fearfully surprised": 7,
+    "fearfully disgusted": 8,
+    "angrily surprised": 9,
+    "angrily disgusted": 10,
+    "disgustedly surprised": 11,
+    "happily fearful": 12,
+    "happily sad": 13
+  },
+  "train_samples": 2709,
+  "test_samples": 909
+}

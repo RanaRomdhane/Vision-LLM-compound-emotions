@@ -1,0 +1,40 @@
+
+================================================================================
+                    VISION-LLM COMPOUND EMOTION RECOGNITION
+                         FINAL EVALUATION REPORT
+================================================================================
+
+🔧 MODEL CONFIGURATION
+────────────────────────────────────────────────────────────────────────────────
+Model:              Salesforce/blip2-opt-2.7b
+LoRA Rank:          32
+LoRA Alpha:         64
+Batch Size:         1
+Learning Rate:      3e-05
+
+📊 CLASSIFICATION PERFORMANCE
+────────────────────────────────────────────────────────────────────────────────
+Overall Accuracy:   0.9670 (96.70%)
+F1-Score (Macro):   0.9784
+Total Test Samples: 909
+
+🎯 TOP-5 PERFORMING CLASSES
+────────────────────────────────────────────────────────────────────────────────
+1. sadly fearful             F1=1.0000
+2. sadly angry               F1=1.0000
+3. sadly surprised           F1=1.0000
+4. fearfully angry           F1=1.0000
+5. fearfully surprised       F1=1.0000
+
+────────────────────────────────────────────────────────────────────────────────
+⚠️ BOTTOM-5 PERFORMING CLASSES
+────────────────────────────────────────────────────────────────────────────────
+1. happily surprised         F1=0.9844
+2. sadly disgusted           F1=0.9719
+3. angrily surprised         F1=0.9647
+4. angrily disgusted         F1=0.9399
+5. happily disgusted         F1=0.8372
+
+================================================================================
+✅ EVALUATION COMPLETED SUCCESSFULLY
+================================================================================
