@@ -409,7 +409,7 @@ CUDA GPU (recommended: T4 or better)
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/vision-llm-compound-emotions.git
+git clone https://github.com/RanaRomdhane/vision-llm-compound-emotions.git
 cd vision-llm-compound-emotions
 
 # Install dependencies
