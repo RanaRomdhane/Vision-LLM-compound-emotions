@@ -723,6 +723,6 @@ Built with 🎭 by a team passionate about affective computing and Vision-Langua
 
 Made with ❤️ using PyTorch · HuggingFace · Streamlit
 
-[![Stars](https://img.shields.io/github/stars/your-org/vision-llm-emotions?style=social)](https://github.com)
+[![Stars](https://img.shields.io/github/stars/your-org/vision-llm-emotions?style=social)](https://github.com/RanaRomdhane/Vision-LLM-compound-emotions)
 
 </div>
